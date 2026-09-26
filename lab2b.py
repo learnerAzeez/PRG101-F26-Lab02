@@ -9,3 +9,8 @@
 # TO DO 1:
 # Follow the instructions given in the README.md file.
 
+num =  int(input("enter a 4 digit interger: "))
+if num == 1984:
+    print("Azeez Badiru")
+else:
+    print("Not the right name!")    

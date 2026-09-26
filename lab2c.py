@@ -19,4 +19,12 @@
 # Get input from the user
 
 
+str1 = input("Enter the first sentence :")
+str2 = input("Enter the second sentence :")
 
+if len(str1) > len(str2):
+    print(str1, "is longer then", str2 + "!")
+elif len(str2) > len(str1):
+    print(str2, "is longer then", str1 + "!")
+else:
+    print(str1, "and", str2, "are of equal length!")

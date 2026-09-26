@@ -7,3 +7,12 @@
 # Usage: ./lab2e.py
 
 # TO DO 1: Follow the instructions given in README.md file
+
+import sys
+
+if len(sys.argv) == 1:
+    print("This script requires exactly two arguments. No arguments were provided!")
+elif len(sys.argv) == 3:
+    print("hello user, good job, your provided two arguments!")
+else:
+    print("this script requires exactly two arguments. you provided", len(sys.argv) - 1, "arguments.")
